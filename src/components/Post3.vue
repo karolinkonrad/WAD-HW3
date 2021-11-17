@@ -15,7 +15,7 @@
 <script>
 
 export default {
-  name: "post1",
+  name: "post3",
   data: function () {
     return {}
   },
@@ -25,12 +25,12 @@ export default {
       return this.$store.getters.productListsale
     },
     getProductById() {
-      return this.$store.getters.getProductById(1)
+      return this.$store.getters.getProductById(3)
     },
   },
   methods: {
     IncreaseYodas: function () {
-      this.$store.dispatch("IncreaseYodasAct", 1)
+      this.$store.dispatch("IncreaseYodasAct", 3)
     },
   }
 }

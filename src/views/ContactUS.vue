@@ -1,6 +1,8 @@
 <template>
   <div class="contactus">
-    <p>Inzz Zucchini</p>
-    <p>inz.zucchini@gmail.com</p>
+    <img src="../assets/intz.png" alt="Manager">
+    <p>Manager: Inzz Zucchini</p>
+    <p>Email: inz.zucchini@gmail.com</p>
+    <p>Tel: 5555555</p>
   </div>
 </template>

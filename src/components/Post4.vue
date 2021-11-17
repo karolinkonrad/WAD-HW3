@@ -4,7 +4,6 @@
       <img class="userIcon" :src='getProductById.userPicture' alt="Võlur">
       <p class="timeStamp">{{ getProductById.timestamp }}</p>
     </div>
-    <img :src='getProductById.commentPicture' alt="wizard">
     <p>{{ getProductById.body }}</p>
     <div class="commentFooter">
       <button v-on:click="IncreaseYodas"></button>
@@ -15,7 +14,7 @@
 <script>
 
 export default {
-  name: "post1",
+  name: "post4",
   data: function () {
     return {}
   },
@@ -25,12 +24,12 @@ export default {
       return this.$store.getters.productListsale
     },
     getProductById() {
-      return this.$store.getters.getProductById(1)
+      return this.$store.getters.getProductById(4)
     },
   },
   methods: {
     IncreaseYodas: function () {
-      this.$store.dispatch("IncreaseYodasAct", 1)
+      this.$store.dispatch("IncreaseYodasAct", 4)
     },
   }
 }
