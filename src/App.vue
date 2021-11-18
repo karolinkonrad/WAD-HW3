@@ -104,20 +104,21 @@ nav div {
   flex-grow: 4;
   padding: 10px;
   color: aliceblue;
-  gap: 1%;
+  gap: 2%;
 }
 
 #ResetButton {
   box-sizing: border-box;
   align-self: center;
-  height: 30px;
+  height: 20px;
   width: 10%;
   padding: 5px;
-  border: 1px solid #5d5c61;
+  border: 0.5px solid black;
   cursor: pointer;
   background-color: #0b5e92;
   color: white;
   font-size: 1vw;
+  border-radius: 6%;
 }
 
 nav img {
